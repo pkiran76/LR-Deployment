@@ -1,0 +1,26 @@
+
+
+
+
+<title>Calculator</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+<div class="content">
+    <h1 style="text-align: center">Chance Of Admission</h1>
+
+    <div class="form">
+        <form action="/math" method="POST">
+            <label>Please enter the Details</label></br></br>
+            <input type="text" name="GRE Score" id="GRE Score"></br>
+            <input type="text" name="TOEFL Score" id="TOEFL Score"></br>
+            <input type="text" name="University Rating Score" id="University Rating Score"></br>
+            <input type="text" name="SOP" id="SOP"></br>
+            <input type="text" name="LOR" id="LOR"></br>
+            <input type="text" name="CGPA" id="CGPA"></br>
+            <input type="text" name="Research" id="Research"></br></br>
+
+
+            <input type="submit" value="Chance Of Admit">
+        </form>
+    </div>
+</div>

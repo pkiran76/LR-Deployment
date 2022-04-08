@@ -1,0 +1,25 @@
+{% block head %}
+
+<title>Calculator</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">CSV_SQL_Table</h1>
+
+    <div class="form">
+        <form action="/sql_csv" method="POST">
+            <label>Choose the parameters</label><br/><br/><br/>
+            <label><input type="text" name="host" id="host" matInput placeholder="host"></label><br/>
+            <label><input type="text" name="user" id="user" matInput placeholder="user"></label><br/>
+            <label><input type="text" name="password" id="password" matInput placeholder="password"></label><br/>
+            <label><input type="text" name="database" id="database"matInput placeholder="database"></label><br/>
+            <label><input type="text" name="table_name" id="table_name"matInput placeholder="table name"></label><br/>
+            <label><input type="text" name="file_path" id="file_path"matInput placeholder="file_path"></label><br/>
+            <label><input type="text" name="file_name" id="file_name"matInput placeholder="file_name"></label><br/><br/><br/>
+            <input type="submit" value="Calculate">
+        </form>
+    </div>
+</div>
+{% endblock %}
