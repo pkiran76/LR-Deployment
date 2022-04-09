@@ -37,7 +37,6 @@ statsmodels==0.13.2
 tangled-up-in-unicode==0.1.0
 tomli==2.0.1
 urllib3==1.26.9
-vc==14.2
 visions==0.7.4
 vs2015_runtime==14.27.29016
 werkzeug==2.1.1
