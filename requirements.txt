@@ -1,6 +1,6 @@
 astor==0.7.1
-ca-certificates==2022.3.18
-certifi==2021.10.8
+ca-certificates>=2018.4.16
+certifi>=2018.4.16
 click==8.1.2
 colorama==0.4.4
 cython==0.29.28
