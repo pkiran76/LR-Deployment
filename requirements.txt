@@ -33,7 +33,6 @@ scikit-learn==1.0.2
 scipy==1.8.0
 setuptools==58.0.4
 setuptools-scm==6.4.2
-sqlite==3.38.0
 statsmodels==0.13.2
 tangled-up-in-unicode==0.1.0
 tomli==2.0.1
